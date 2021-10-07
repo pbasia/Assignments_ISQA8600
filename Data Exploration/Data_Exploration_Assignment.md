@@ -88,7 +88,7 @@ sapply(AssnDE107, function(x) sum(is.na(x)))
 
 <br> </br>
 1. **One scatter plot with three variables, properly labeled; choose your representation of the third variable based on what’s best for representing the data.**  
-* Three variables are:
+* Three used variables are:
   * age  
   * program_unit_description  
   * Adding a third variable in geom point using colour=program_name 
