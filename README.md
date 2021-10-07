@@ -5,7 +5,7 @@ This document serves as the front page for my personal repository, where I'll su
 [License Information]()  
 The License information will be available shortly.
 ### My Assignments:
-1. [Data Entry Analysis]()
-2. [Data Exploration]()
+1. [Data Entry Analysis](https://github.com/pbasia/Assignments_ISQA8600/blob/main/README.md)
+2. [Data Exploration](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/Data_Exploration_Assignment.md)
 ### Proud student of:
 ![University of Nebraska at Omaha](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Uno-logo1.jpg/640px-Uno-logo1.jpg)
