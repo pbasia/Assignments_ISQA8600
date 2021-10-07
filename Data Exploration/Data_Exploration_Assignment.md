@@ -99,6 +99,8 @@ ggplot(data = AssnDE107, aes(x =age , y =program_unit_description , colour=progr
 | ![Scatter Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/1scatter3var.png)<!-- -->
 | -
 
+The above scatter plot is composed of three variables: age, program_unit description and program_name. from this plot , we can say that people have mostly participated in the mental health program. The second major program is for the substance use program. The plot also describes that clients between Age 15 to 55 are most likely  to be treated in the programs.
+
 <br> </br>2. **One faceted plot of two variables, properly labeled.**  
 * Two used variables are:
   * age  
