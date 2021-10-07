@@ -15,6 +15,7 @@ AssnDE107 <- read.csv("HFS Service Data.csv", na.strings = "")
   * program_unit_description  
   * Adding a third variable in geom point using colour=program_name 
 ```r
-ggplot(data = AssnDE107, aes(x =age , y =program_unit_description , colour=program_name)) +
-geom_point(size = 3)
+ggplot(data = AssnDE107, aes(x =age , y =program_unit_description , colour=program_name)) +geom_point(size = 3)+
+     labs(title = "Scatter plot with three variables", y = "Unit Description of the Program", x = "Age")
 ```
+![Scatter Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/1scatter3var.png)<!-- -->
