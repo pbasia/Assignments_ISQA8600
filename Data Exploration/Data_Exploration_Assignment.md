@@ -32,3 +32,15 @@ ggplot(data = AssnDE107, aes(program_name,age)) +
     facet_wrap(.~ethnic_identity)
 ```
 ![Faceted Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/2FacetedPlot.png)<!-- -->
+
+3. **One bar chart, properly labeled.**  
+* Used variable is:
+  * age    
+```r
+ggplot(data = AssnDE107)+
+    geom_bar(mapping = aes(x=age),colour="white",fill="blue")+
+    labs(title = "One bar chart of Age", y = "Count of Clients of this Age", x = "Age of client")
+```
+![Bar Chart](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/3BarChart.png)<!-- -->
+
+
