@@ -19,3 +19,16 @@ ggplot(data = AssnDE107, aes(x =age , y =program_unit_description , colour=progr
      labs(title = "Scatter plot with three variables", y = "Unit Description of the Program", x = "Age")
 ```
 ![Scatter Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/1scatter3var.png)<!-- -->
+
+2. **One faceted plot of two variables, properly labeled.**  
+* Two used variables are:
+  * age  
+  * program_name   
+```r
+ggplot(data = AssnDE107, aes(program_name,age)) +
+ geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue") +
+   labs(title = "Faceted plot of two variables Age vs Program Name", y = "Age", x = "Name of Program") +
+    facet_wrap(.~ethnic_identity)
+```
+![Faceted Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/2FacetedPlot.png)<!-- -->
