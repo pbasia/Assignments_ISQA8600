@@ -114,6 +114,7 @@ ggplot(data = AssnDE107, aes(program_name,age)) +
 ```
 | ![Faceted Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/2FacetedPlot.png)<!-- -->
 | -
+We have divided the plot using the ethnic_identity of the clients. This plot uses two variables Age and Program Name. We can say from the plot that due to uncollected data or unknown/missing values there are more separations in the plot. However , with the data in hand, the created plot shows the differences of programs being served to the different aged groups accross various ethnicity.
 
 <br> </br>3. **One bar chart, properly labeled.**  
 * Used variable is:
