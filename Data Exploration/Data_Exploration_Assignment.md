@@ -86,7 +86,7 @@ sapply(AssnDE107, function(x) sum(is.na(x)))
     ##          ethnic_identity          gender_identity       sexual_orientation 
     ##                        0                        0                        0
 
-
+<br> </br>
 1. **One scatter plot with three variables, properly labeled; choose your representation of the third variable based on what’s best for representing the data.**  
 * Three variables are:
   * age  
@@ -99,7 +99,7 @@ ggplot(data = AssnDE107, aes(x =age , y =program_unit_description , colour=progr
 | ![Scatter Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/1scatter3var.png)<!-- -->
 | -
 
-2. **One faceted plot of two variables, properly labeled.**  
+<br> </br>2. **One faceted plot of two variables, properly labeled.**  
 * Two used variables are:
   * age  
   * program_name   
@@ -113,7 +113,7 @@ ggplot(data = AssnDE107, aes(program_name,age)) +
 | ![Faceted Plot](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/2FacetedPlot.png)<!-- -->
 | -
 
-3. **One bar chart, properly labeled.**  
+<br> </br>3. **One bar chart, properly labeled.**  
 * Used variable is:
   * age    
 ```r
