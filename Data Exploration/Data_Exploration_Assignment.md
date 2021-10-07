@@ -125,3 +125,4 @@ ggplot(data = AssnDE107)+
 ```
 | ![Bar Chart](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/3BarChart.png)<!-- -->
 | -
+This Bar chart is composed of only the Age of the Clients of the HFS. It shows how many clients are in which age group. The charts shows that most clients of HFS are Teens and persons in their mid 30's. Also we can observe that there is a drop in the chart for people in their early 20's and avove 45's.
