@@ -7,5 +7,6 @@ Click on [License Information](https://github.com/pbasia/Assignments_ISQA8600/bl
 ### My Assignments:
 1. [Data Entry Analysis](https://github.com/pbasia/Assignments_ISQA8600/blob/main/README.md)
 2. [Data Exploration](https://github.com/pbasia/Assignments_ISQA8600/blob/main/Data%20Exploration/Data_Exploration_Assignment.md)
+3. [Worst Plots Contest](https://github.com/pbasia/Assignments_ISQA8600/tree/main/Worst%20Plots)
 ### Proud student of:
 ![University of Nebraska at Omaha](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Uno-logo1.jpg/640px-Uno-logo1.jpg)
