@@ -1,1 +1,23 @@
-## Worst Plots Contest
+---
+title: "Worst Plots Contest"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_knit$set(root.dir = "C:/Users/piyus/Downloads/ISQA8600/Data Cleaning Document")
+```
+
+## R Markdown
+
+```{r}
+newdata <- read.csv("HFS Service Data.csv", na.strings = "")
+```
+
+```{r}
+library(ggplot2)
+ggplot(newdata, aes(x =program_name , y=duration, color=program_name))+stat_summary(fun = "mean", geom = "bar")
+```
